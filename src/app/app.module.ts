@@ -1,7 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import 'materialize-css';
-// import { MaterializeModule } from 'angular2-materialize';
 
 import { RouterModule } from '@angular/router';
 
@@ -19,7 +17,6 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    // MaterializeModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent }
     ])
